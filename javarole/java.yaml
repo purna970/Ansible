@@ -1,0 +1,5 @@
+- name: Installing java
+  hosts: all
+  become: yes
+  roles:
+    - java  
